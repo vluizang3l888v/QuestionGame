@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/CSS/Index.css"/>
+
+<!-- bootstrap -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!--below here the work begins-->
+
+
+</head>
+
+<body>
+
+
+
+
+
+<!--the timer-->
+<p id="timer44">______</p>
+<!--the timer-->
+
+
+ 
+
+
+
+<p id="demo"></p>
+
+<div class="header">
+        <h1>Luis Goofy Quiz</h1>
+    <div class="results">
+        <h2>You Scored: Not yet attempted</h2>
+    </div>
+</div>
+        <div class="body">
+        <form name="quiz" onsubmit="return onSubmit()">
+            <!--onSubmit is for later JavaScript to call it.-->
+    <!--deleter close form thing-->
+            <div class="question">
+                        <h1 class="q-title"> What is the best color in the rainbow</h1>
+                        <div class="q-options">
+                        <input type="radio" name="q1" value="a" id="q1a">a.Red<br> <!--added id-->
+                        <input type="radio" name="q1" value="b">b.Blue<br>
+                        <input type="radio" name="q1" value="c">c.Brown<br>
+                        <input type="radio" name="q1" value="d">d.Purple<br>
+                        </div>
+
+            </div>
+            <div class="question">
+                        <h1 class="q-title"> Who is the coolest person in the world?</h1>
+                        <div class="q-options">
+                        <input type="radio" name="q2" value="a">a.Donald Trump<br> 
+                        <input type="radio" name="q2" value="b">b.Ted Cruz<br>
+                        <input type="radio" name="q2" value="c">c.Stephen Hawking<br>
+                        <input type="radio" name="q2" value="d">d.Hillary Clinton<br>
+                        </div>
+
+            </div>
+            <div class="question">
+                        <h1 class="q-title"> Who drives a blue car?</h1>
+                        <div class="q-options">
+                        <input type="radio" name="q3" value="a">a.ben<br> 
+                        <input type="radio" name="q3" value="b">b.Andrew<br>
+                        <input type="radio" name="q3" value="c">c.David<br>
+                        <input type="radio" name="q3" value="d">d.Chris<br>
+                    </div>
+
+            </div>
+            <div class="question">
+                        <h1 class="q-title">Who is the smartest scientist currently living</h1>
+                        <div class="q-options">
+                        <input type="radio" name="q4" value="a">a.Stephen Hawking<br> 
+                        <input type="radio" name="q4" value="b">b.Neil Degrasse Tyson<br>
+                        <input type="radio" name="q4" value="c">c.Michio Kaku<br>
+                        <input type="radio" name="q4" value="d">d.Alex Filipenko<br>
+                        <input type="radio" name="q4" value="e">e. all of the above<br>
+                        </div>
+            </div>
+            <div class="question">
+                       <h1 class="q-title"> Who was the best president</h1>
+                        <div class="q-options">
+                        <input type="radio" name="q5" value="a">a.Andrew Jackson<br> 
+                        <input type="radio" name="q5" value="b">b.Thomas Jefferson<br>
+                        <input type="radio" name="q5" value="c">c.Abraham Lincoln<br>
+                        <input type="radio" name="q5" value="d">d.George Washington<br>
+                        </div>
+        </div>
+        <button type="submit">Submit Test</button>
+
+    </div>
+
+
+
+
+
+<script src="Assets/JavaScript/game.js"></script>
+<footer>
+<p>Developed by: Luis Salazar</p>
+
+</footer>
+</body>
+</html>
+
